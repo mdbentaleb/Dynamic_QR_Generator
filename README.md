@@ -39,6 +39,7 @@ Replace <URL> with the URL you want to encode into a QR code.
 ## Output
 
 If the QR code generation is successful, the script will print a message indicating the name of the generated QR code file. If it fails, an error message will be displayed.
+![output](https://github.com/mdbentaleb/Dynamic_QR_Generator/assets/132714803/89b3ec8e-9834-4d4a-aaf9-518c50e642c0)
 
 ## Note for Users
 
