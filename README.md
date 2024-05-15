@@ -33,7 +33,7 @@ Replace <URL> with the URL you want to encode into a QR code.
 ```bash
    ./qrgen.sh "https://example.com"
 ```
-This will generate a QR code image file named `qr_code.png` in the current directory, encoding the URL `https://example.com`
+- This will generate a QR code image file named `qr_code.png` in the current directory, encoding the URL `https://example.com`
 
 ## Output
 
