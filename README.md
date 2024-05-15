@@ -15,6 +15,10 @@ If you're prompted for a password during script execution, please provide it to 
 
 1. **Clone the repository:**
 
+```bash
+   git clone https://github.com/mdbentaleb/Dynamic_QR_Generator.git
+```
+
 2. **Make the script executable by running the following command:**
 
 ```bash
