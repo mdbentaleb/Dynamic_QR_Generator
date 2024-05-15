@@ -33,13 +33,16 @@ Replace <URL> with the URL you want to encode into a QR code.
 ```bash
    ./qrgen.sh "https://example.com"
 ```
-![example](https://github.com/mdbentaleb/Dynamic_QR_Generator/assets/132714803/c8de088a-0ee7-4e08-83a9-6b097c13d818)
+
+![example-](https://github.com/mdbentaleb/Dynamic_QR_Generator/assets/132714803/6b604b48-805e-47f3-8654-9314b44dd58b)
+
 - This will generate a QR code image file named `qr_code.png` in the current directory, encoding the URL `https://example.com`
 
 ## Output
 
 If the QR code generation is successful, the script will print a message indicating the name of the generated QR code file. If it fails, an error message will be displayed.
-![output](https://github.com/mdbentaleb/Dynamic_QR_Generator/assets/132714803/89b3ec8e-9834-4d4a-aaf9-518c50e642c0)
+
+![output-](https://github.com/mdbentaleb/Dynamic_QR_Generator/assets/132714803/874a1f6b-e66e-4b6f-96ad-dc38ddb0789e)
 
 ## Note for Users
 
@@ -51,4 +54,6 @@ This is a standard security measure to ensure proper system maintenance.
 
 This script is designed for personal use. Review the code before executing on critical systems.
 
-## Author [mdbentaleb](https://github.com/mdbentaleb)
+## Author
+
+[mdbentaleb](https://github.com/mdbentaleb)
