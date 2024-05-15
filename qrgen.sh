@@ -23,6 +23,22 @@ if [ $# -lt 1 ]; then
 	exit 1
 fi
 
+tpwrt()  {
+	local txt="$1"
+	local colorCheck="$2"
+	local  dly="$3"
+
+	sleep 1
+	for ((i = 0; i < ${#txt}; i++)); do
+		case $colorCheck in
+			1) echo -ne "\e[36m${txt:$i:1}\e[0m" ;;
+			2) echo -ne "\e[31m${txt:$i:1}\e[0m" ;;
+		esac
+		sleep "$dly"
+	done
+	echo
+}
+
 url=$1
 
 if [ -e qr_code.png ]; then
@@ -48,7 +64,7 @@ fi
 qrencode -s 10 -o "$new_filename" "$url"
 
 if [ -e "$new_filename" ]; then
-	echo -e "\e[36mQR code generated successfully: $new_filename\e[0m"
+	tpwrt "QR code generated successfully: $new_filename" 1 0.03
 else
-	echo "QR code generation failed."
+	tpwrt "QR code generation failed." 1  0.03
 fi
