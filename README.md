@@ -1,6 +1,6 @@
 # QR Code Generator Script
 
-
+![script](https://github.com/mdbentaleb/Dynamic_QR_Generator/assets/132714803/6910fdbb-d89d-4edc-920c-316aa53705ea)
 
 This is a Bash script that generates QR codes from a given URL using the qrencode command-line utility.
 
